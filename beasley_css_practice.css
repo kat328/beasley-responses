@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: #FE9A2E; color: #FFFFFF; font-size: 150%}
+
+h1 {text-decoration: underline; color: #FFFFFF; font-size: 300%}
+
+p.sansserif {font-family: "Tahoma", sans-serif;}
+
+</style>
+</head>
+<body>
+
+<h1>It's CSS Practice Time!</h1>
+
+<p class="sansserif">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. It describes how HTML elements will be displayed on screen, paper, or in other media. It saves a lot of work because it can control the layout of multiple Web pages all at once. Text stolen from Wikipedia and www.w3schools.com.</p>
+
+</body>
+</html>
+
