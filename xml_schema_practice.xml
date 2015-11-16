@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="surface_email_setup_use">
+
+  <xs:complexType name="using_mail_app">
+    <xs:sequence>
+      <xs:element name="first_time_use" type="xs:string"/>
+      <xs:element name="adding_email_account" type="xs:string"/>
+	  <xs:element name="removing_email_account" type="xs:string"/>
+      <xs:element name="changing_email_account_settings" type="xs:string"/>
+      <xs:element name="managing_messages" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="using_outlook_2013">
+    <xs:sequence>
+      <xs:element name="adding_email_account" type="xs:string"/>
+	  <xs:element name="updating_email_account_settings" type="xs:string"/>
+      </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema> 
